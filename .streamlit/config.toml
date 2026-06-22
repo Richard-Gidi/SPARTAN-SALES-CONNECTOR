@@ -1,12 +1,13 @@
-# Pin a light theme so Streamlit's own text/controls always match the design,
-# regardless of the viewer's system dark-mode setting.
 [theme]
-base = "light"
-primaryColor = "#F4A91F"
-backgroundColor = "#F6F3EC"
-secondaryBackgroundColor = "#FFFFFF"
-textColor = "#0C1E26"
-font = "sans serif"
+base = "dark"
+primaryColor = "#F4A63B"
+backgroundColor = "#0F1B23"
+secondaryBackgroundColor = "#16242E"
+textColor = "#EAF1F5"
+
+[server]
+headless = true
+
 
 [client]
 toolbarMode = "auto"
