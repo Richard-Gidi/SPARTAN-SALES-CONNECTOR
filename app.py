@@ -61,11 +61,6 @@ def inject_css() -> None:
    var(--ink); }
 .block-container{ max-width:1120px; padding-top:1.4rem; padding-bottom:4rem; }
 
-/* hide default chrome for a cleaner console */
-#MainMenu, footer{ visibility:hidden; }
-header[data-testid="stHeader"]{ background:transparent; height:0; }
-[data-testid="stToolbar"], [data-testid="stDecoration"], .stAppDeployButton{ display:none !important; }
-
 html, body, .stApp, p, label, span, div{ font-family:'Inter',sans-serif; color:var(--text); }
 h1,h2,h3,h4{ font-family:'Space Grotesk',sans-serif; letter-spacing:-.01em; }
 
